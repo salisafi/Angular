@@ -1,0 +1,41 @@
+<div id="header">
+  <div class="container-fluid">
+    <a id="navbar-logo" routerLink="/main"><img src="../../assets/img/logo.png"></a>
+
+    <div class="row float-right">
+      <ul id="header-inline">
+        <li class="d-inline"><a routerLink="/login">Login</a></li>
+        <p class="d-inline p-2"> | </p>
+        <li class="d-inline"><a routerLink="/register">Register</a></li>
+        <p class="d-inline p-2"> | </p>
+        <li class="d-inline"><a href="#">About us</a></li>
+        <p class="d-inline p-2"> | </p>
+        <li class="d-inline"><a href="#">Services</a></li>
+        <p class="d-inline p-2"> | </p>
+        <li class="d-inline"><a href="#">FAQ</a></li>
+        <p class="d-inline p-2"> | </p>
+        <li class="d-inline"><a href="#">Contact us</a></li>
+      </ul>
+    </div>
+    <br />
+
+    <div class="row" id="searchbar-row">
+      <form class="form-inline">
+        <select class="form-control mr-sm-2">
+          <option>Category</option>
+          <option>Homeware</option>
+          <option>Tools & Equip</option>
+          <option>Sports & Rec</option>
+          <option>Entertainment</option>
+          <option>Babys & Kids</option>
+          <option>Fashion</option>
+        </select>
+
+        <input id="searchbar" class="form-control mr-sm-2" type="search" placeholder="What do you want to borrow?"
+          aria-label="Search">
+        <button class="btn btn-primary my-2 mr-sm-2" type="submit">List</button>
+        <button class="btn btn-primary my-2 my-sm-0" type="submit">Map</button>
+      </form>
+    </div>
+  </div>
+</div>
